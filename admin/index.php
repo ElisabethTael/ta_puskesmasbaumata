@@ -4,7 +4,6 @@ session_start();
 
 $id_admin = $_SESSION['admin'];
 
-
 $ambildata = mysqli_query($conn, "SELECT * FROM perawat WHERE id_perawat = '$id_admin'");
 
 $ambil = mysqli_query($conn, "SELECT * FROM perawat WHERE id_perawat = '$id_admin'");
