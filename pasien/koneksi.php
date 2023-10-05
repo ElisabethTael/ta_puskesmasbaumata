@@ -1,7 +1,7 @@
 <?php
 
 
-$conn = mysqli_connect("localhost", "root", "", "ta_puskesmasbaumata");
+$conn = mysqli_connect("localhost", "flyupid_ta_puskesmasbaumata", "pB031023_", "flyupid_ta_puskesmasbaumata");
 
 
 
